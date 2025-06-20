@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="qr-container">
-      <h1>QR Code Generator</h1>
+      <h1>QR by: Badalov ABdullaziz</h1>
       <Space direction="vertical" align="center">
         <QRCode value={text || "-"} size={200} />
         <Input
